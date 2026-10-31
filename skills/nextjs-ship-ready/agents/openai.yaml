@@ -1,0 +1,7 @@
+interface:
+  display_name: "Next.js Ship Ready"
+  short_description: "Audit and harden Next.js App Router apps: Core Web Vitals, SEO, AI search (GEO), security, launch"
+  brand_color: "#000000"
+  default_prompt: "Audit this Next.js app for production readiness (performance, SEO, AI search visibility, security) and give me a prioritized report."
+policy:
+  allow_implicit_invocation: true

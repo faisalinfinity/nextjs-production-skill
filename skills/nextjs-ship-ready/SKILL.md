@@ -41,7 +41,7 @@ Whether Cache Components is on decides which caching APIs exist (see `references
 
 ## Audit workflow
 
-1. **Run the static audit** from the project root. `<skill-dir>` is this skill's directory.
+1. **Run the static audit** from the project root. `<skill-dir>` is the directory this SKILL.md was loaded from, for example `.agents/skills/nextjs-ship-ready` (Codex, Cursor, Copilot, Gemini CLI, OpenCode) or `.claude/skills/nextjs-ship-ready` (Claude Code), at project or user level. The scripts only need Node.js 18 or later.
    ```bash
    node <skill-dir>/scripts/audit.mjs [projectDir]          # markdown report
    node <skill-dir>/scripts/audit.mjs [projectDir] --json   # machine-readable
