@@ -1,6 +1,6 @@
 # Next.js Production Skill
 
-## nextjs-app-router-production
+## nextjs-ship-ready
 
 A production playbook for **Next.js App Router** apps (written against Next.js 16.4) that your coding agent follows when you build, audit, or ship a Next.js app. It covers:
 
@@ -22,7 +22,7 @@ It also includes copy-ready templates: `next.config.ts` (security headers, an AI
 ### Install
 
 ```bash
-npx skills add faisalinfinity/nextjs-production-skill --skill nextjs-app-router-production
+npx skills add faisalinfinity/nextjs-production-skill --skill nextjs-ship-ready
 ```
 
 ### Use
@@ -38,8 +38,8 @@ Just ask your agent. The skill triggers on Next.js performance, SEO, AI-search, 
 Or run the scripts yourself:
 
 ```bash
-node ~/.claude/skills/nextjs-app-router-production/scripts/audit.mjs .
-node ~/.claude/skills/nextjs-app-router-production/scripts/check-live.mjs https://your-site.com/some-page
+node ~/.claude/skills/nextjs-ship-ready/scripts/audit.mjs .
+node ~/.claude/skills/nextjs-ship-ready/scripts/check-live.mjs https://your-site.com/some-page
 ```
 
 (The install path depends on your agent; `npx skills add` prints it.)

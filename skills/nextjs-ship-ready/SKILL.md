@@ -1,5 +1,5 @@
 ---
-name: nextjs-app-router-production
+name: nextjs-ship-ready
 license: MIT
 description: Production-grade playbook for Next.js App Router apps covering Core Web Vitals (LCP, INP, CLS), technical SEO, GEO (getting cited by ChatGPT, Claude, Perplexity, Google AI Overviews), security hardening, and launch readiness. Ships a static audit script and a live checker that shows what Googlebot and AI crawlers actually receive. Use this whenever the user is building, reviewing, auditing, optimizing, or shipping a Next.js app (app/ directory, Server Components, Server Actions, next.config), asks why a Next.js page is slow or has poor LCP/INP/CLS/Lighthouse scores, needs metadata, sitemaps, robots, canonical URLs, Open Graph or structured data, wants a site to appear in AI search or answer engines, asks about CSP, security headers or Server Action safety, or says "make it production ready", even if they never say "SEO" or "performance".
 ---
